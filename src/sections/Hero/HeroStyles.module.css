@@ -1,0 +1,183 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+  min-height: 700px;
+  padding: 0 20px;
+}
+
+.container .hero {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container span {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.container span a {
+  margin: 0;
+}
+
+.container span a img {
+  width: 30px;
+}
+
+.container a {
+  width: fit-content;
+  align-self: center;
+}
+
+.container button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.container button:hover {
+  transform: scale(1.05);
+}
+
+.container button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.colorModeContainer {
+  position: relative;
+}
+
+.colorMode {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  cursor: pointer;
+}
+
+.description {
+  max-width: 50ch;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 599px) {
+  .container {
+    gap: 40px;
+  }
+
+  .container .hero {
+    max-width: 150px;
+  }
+
+  .info h1 {
+    white-space: nowrap;
+  }
+
+  .description {
+    max-width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .container button {
+    width: 100%;
+    max-width: 180px;
+    font-size: 18px;
+    margin-top: -10px;
+  }
+
+  .container span {
+    gap: 15px;
+  }
+
+  .colorMode {
+    width: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  .container {
+    padding: 30px 40px;
+    gap: 60px;
+  }
+
+  .container .hero {
+    max-width: 280px;
+  }
+
+  .info {
+    gap: 25px;
+  }
+
+  .info h1 {
+    white-space: normal;
+    font-size: 2.5rem;
+  }
+
+  .info h2 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    max-width: 70ch;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .container button {
+    width: 180px;
+    font-size: 19px;
+  }
+
+  .container span {
+    gap: 20px;
+  }
+
+  .colorMode {
+    width: 23px;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 40px;
+  }
+
+  .container .hero {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container .hero {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container .hero {
+    max-width: 400px;
+    width: 400px;
+  }
+}
