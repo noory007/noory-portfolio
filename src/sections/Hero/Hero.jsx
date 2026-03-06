@@ -55,8 +55,7 @@ function Hero() {
           I am Abdul Satar Noory, a Frontend Developer based in Stockholm with a
           background in Computer Science and 7+ years in IT. Currently studying
           at Hyper Island, I specialize in React, HTML, CSS, and JavaScript.
-          Open to internships in Sweden from (Sept 2025–Mar 2026). CSN-funded
-          and ready to contribute.
+          Open to internships in Sweden and ready to contribute.
         </p>
         <a href={Abdul_Satar_Noory_CV_Internship_2025} download>
           <button className="hover">Resume</button>
