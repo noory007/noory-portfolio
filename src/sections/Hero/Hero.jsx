@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import Abdul_Satar_Noory_CV_Internship_2025 from "../../assets/Abdul_Satar_Noory_CV_Internship_2025.pdf";
+import Abdul_Satar_Noory_CV_Internship from "../../assets/Abdul_Satar_Noory_CV_Internship.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
