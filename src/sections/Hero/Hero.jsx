@@ -57,7 +57,7 @@ function Hero() {
           React, HTML, CSS, and JavaScript. Open to internship in Sweden and
           ready to contribute.
         </p>
-        <a href={Abdul_Satar_Noory_CV_Internship_2025} download>
+        <a href={Abdul_Satar_Noory_CV_Internship} download>
           <button className="hover">Resume</button>
         </a>
       </div>
