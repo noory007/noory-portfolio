@@ -53,7 +53,7 @@ function Hero() {
         </span>
         <p className={styles.description}>
           I am Abdul Satar Noory, a Frontend Developer based in Stockholm with a
-          background in Computer Science and 7+ years in IT. I specialize in
+          background in Computer Science and 7+ years in IT. I specialized in
           React, HTML, CSS, and JavaScript. Open to internship in Sweden and
           ready to contribute.
         </p>
